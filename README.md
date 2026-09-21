@@ -1,2 +1,1 @@
-﻿# turma-01-automacao-qa
-<img width="1155" height="78" alt="image" src="https://github.com/user-attachments/assets/12bf2bbd-553e-4a45-922b-7d2d80541653" />
+
