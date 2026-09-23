@@ -42,6 +42,8 @@ async function criarPostagem(): Promise<Postagem> {
     const resPost = await res.json() as Promise<Postagem>;
     return resPost
 }
+// const post = await criarPostagem();
+// console.log(post)
 
 //PUT: ATUALIZA UMA POSTAGEM EXISTENTE
 async function atualizarPostagemCompleta(id: number): Promise<Postagem> {
@@ -70,7 +72,11 @@ async function atualizarPostagemCompleta(id: number): Promise<Postagem> {
     const resPut = await res.json() as Promise<Postagem>;
     return resPut
 }
+// const put = await atualizarPostagemCompleta(77);
+// console.log(put)
 
+
+//DELETE: deleta uma mensagem existente
 async function deletar(id: number): Promise<void> {
     const res = await fetch(
         `https://jsonplaceholder.typicode.com/posts/${id}`, {
@@ -107,10 +113,3 @@ async function atualizarCampo(id: number): Promise<Postagem> {
 const patch = await atualizarCampo(56);
 console.log(patch.title)
 console.log(patch)
-// const put = await atualizarPostagemCompleta(77);
-// console.log(put)
-
-// const post = await criarPostagem();
-// console.log(post)
-
-
