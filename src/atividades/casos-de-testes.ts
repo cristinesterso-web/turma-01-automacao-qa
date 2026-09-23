@@ -15,19 +15,19 @@ function criarCasoDeTeste(
     };
 };
 
-function automatizado (caso: CasoDeTeste): boolean {
+function automatizado(caso: CasoDeTeste): boolean {
     return caso.automatizado;
 };
 
-const primeiroCaso = criarCasoDeTeste (
-    1, "Login com dados válidos", "Verificar se o usuário consegue efetuar login com dados válidos.",true 
+const primeiroCaso = criarCasoDeTeste(
+    1, "Login com dados válidos", "Verificar se o usuário consegue efetuar login com dados válidos.", true
 );
-const segundoCaso = criarCasoDeTeste (
+const segundoCaso = criarCasoDeTeste(
     2, "Login com senha inválida", "Verificar se o sistema impede o login com senha inválida.", false
 );
- console.log (automatizado(primeiroCaso));
- console.log (automatizado(segundoCaso));
+console.log(automatizado(primeiroCaso));
+console.log(automatizado(segundoCaso));
 
- const casoComErro = criarCasoDeTeste(
+const casoComErro = criarCasoDeTeste(
     1, "Teste", "Descrição do teste", true
- );
+);
