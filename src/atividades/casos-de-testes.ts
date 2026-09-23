@@ -29,6 +29,5 @@ const segundoCaso = criarCasoDeTeste (
  console.log (automatizado(segundoCaso));
 
  const casoComErro = criarCasoDeTeste(
-    "1", "Teste", "Descrição do teste", true
+    1, "Teste", "Descrição do teste", true
  );
- 

@@ -6,7 +6,8 @@
     "dev": "npm run type-check && tsx src/aula25/index.ts",
     "build": "tsc",
     "start": "node .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^26.5.0",
