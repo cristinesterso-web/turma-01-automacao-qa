@@ -22,8 +22,5 @@ Você abre o projeto no VS Code, abre o terminal dele, verifica se o Node.js tá
 
 Exemplo:
 
-```
-criaCasoDeTeste("1", "Teste", "Descrição", true);
+<img width="730" height="120" alt="image" src="https://github.com/user-attachments/assets/c637495c-a557-4e60-89ff-d6c32a115350" />
 
-
-<img width="1155" height="78" alt="image" src="https://github.com/user-attachments/assets/12bf2bbd-553e-4a45-922b-7d2d80541653" />
